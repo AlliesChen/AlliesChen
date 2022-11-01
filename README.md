@@ -24,9 +24,11 @@ Here are some ideas to get you started:
 - [Linkedin](https://www.linkedin.com/in/ypchen-1057a5137/)：大概一周寫一篇技術的筆記貼文，或是轉貼文章加上閱讀心得。
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
 
+我也參加了 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+
 ## Side Project
 
-目前多以單類型應用為主，著重練習技術實作，像使用 socket.io、SCSS、TypeScript，或是練習框架像 React、Vue 等。
+目前多是小型應用，著重練習特定的技術，像使用 socket.io、SCSS、TypeScript，或是練習 JS 框架像 React、Vue 等。部份專案有參考的教學，但我會再增加自己的想法去改動，比如 React 換 Vue， Bootstrap 換 Tailwind，讓自己不被框架侷限，專注在想法的實現。
 
 ### [MERN-stack](https://github.com/AlliesChen/MERN-stack) (no live demo)
 
@@ -42,7 +44,7 @@ Here are some ideas to get you started:
 
 [Live demo](https://vue-chatroom.fly.dev/)
 
-為練習使用 socket.io 做的簡易聊天室，自訂一個使用者名稱及房間名稱即可在視窗間互傳資訊，沒有使用資料庫，所以訊息不會留存下來。這個 web app 是參照 Youtube 上的[教學影片](https://youtu.be/NU-HfZY3ATQ)做的，教學者用 React 教，我則改用 Vue 實踐，透過轉換框架來驗證自己對兩個框架的掌握度。
+為練習使用 socket.io 做的簡易聊天室，自訂一個使用者名稱及房間名稱即可在視窗間互傳資訊，沒有使用資料庫，所以訊息不會留存下來。
 
 - 後端使用 Node.js + express
 - 前端以 Vite 建立，使用 Vue 3 composition API 搭配 TypeScript。
@@ -55,7 +57,7 @@ Here are some ideas to get you started:
 
 [photo-gallery](https://github.com/AlliesChen/photo-gallery)：結構上以 script.js 這支檔案為入口，當時想以元件化的概念去寫，所以將畫面有關的程式碼放在 [views](https://github.com/AlliesChen/photo-gallery/tree/main/static/views) 資料夾，操作的邏輯放在 [controls](https://github.com/AlliesChen/photo-gallery/tree/main/static/controls) 資料夾。
 
-*後來才知道有 web component 這個技術 😅*
+\**後來才知道有 web component 這個技術 😅*
 
 [photo-vue](https://github.com/AlliesChen/photo-vue)：顧名思義，使用 vue-cli 建立 Vue 2 並重新撰寫 photo-gallery 的功能，搭配套件 vuex、vue-router，樣式使用 scss 並以 Atomic CSS 的概念去寫 class。
 - 邏輯上我將與畫面有關的元件放在 [views](https://github.com/AlliesChen/photo-vue/tree/main/src/views) 資料夾，會與後端溝通的元件放在 [components](https://github.com/AlliesChen/photo-vue/tree/main/src/components) 資料夾，目的是做關注點分離。
@@ -63,22 +65,30 @@ Here are some ideas to get you started:
 
 ## React 與 TypeScript 練習
 
-react-shopping-cart：使用 Tailwind CSS。
-simple-resume-react：搭配 TypeScript，並使用 Chakra UI。
-next-list：搭配 TypeScript。
+[react-shopping-cart](https://github.com/AlliesChen/react-shopping-cart)：練習搭配 Tailwind CSS，加入 RWD。
+
+[simple-resume-react](https://github.com/AlliesChen/simple-resume-react)：搭配 TypeScript，並使用 Chakra UI。
+
+[next-list](https://github.com/AlliesChen/next-list)：試試看 Next.js，搭配 TypeScript。
 
 ## Vanilla JavaScript
 
-todolist：一個待辦清單的 web app，使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
-weather-app：練習 API 串接，使用 OpenWeather API。
-calculator：最一開始學習 JS 做的計算機。
+[todolist](https://github.com/AlliesChen/todolist)：一個待辦清單的 web app，使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
+
+[weather-app](https://github.com/AlliesChen/weather-app)：練習 API 串接，使用 OpenWeather API，可以透過瀏覽器定位提供使用者所在城市的天氣資訊，或是輸入城市名稱查詢天氣。
+
+[calculator](https://github.com/AlliesChen/calculator)：最一開始學習 JS 做的計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
 
 ## 小遊戲系列 have fun!
 
-quizzical-trivia：React 做的豆知識問答集，串接 Trivia API。
-tenzies-game：React 做的骰子遊戲，所有骰子的點數都一樣就勝利了。
-tic-tac-toe：純 JS 寫的井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+[quizzical-trivia](https://github.com/AlliesChen/quizzical-trivia)：使用 React 做的豆知識問答集，串接 Trivia API。
 
-其他：
+[tenzies-game](https://github.com/AlliesChen/tenzies-game)：React 做的骰子遊戲，所有骰子的點數都一樣就勝利了。
 
-leetcode-practices：練習解 Leetcode。
+[tic-tac-toe](https://github.com/AlliesChen/tic-tac-toe)：純 JS 寫的井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+
+## 其他：
+
+[flask-api](https://github.com/AlliesChen/flask-api)：我在 2022 iThome鐵人賽中的一篇文章教學所做，旨在透過 `pymongo` 套件應用 MongoDB 的建立 API server。
+
+[leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
