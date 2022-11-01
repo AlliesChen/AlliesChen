@@ -15,16 +15,25 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-關於我：
+Hi, 我是位前端工程師，非資訊本科生，做過企劃、PM，最後發現自己喜歡寫程式。想方設法地大量攝取技術知識，也努力補齊基礎學科知識；像透過哈佛的 CS50 課程，在課程中用了 C、Python、SQL，和實作了演算法、後端和網頁。
 
-前端工程師，非資訊本科生，原本不想寫程式所以去做企劃、PM，繞了一圈還是想寫程式。想方設法地大量攝取技術知識，也努力補齊基礎學科知識；像透過哈佛的 CS50 課程，在課程中用了 C、Python、SQL，和實作了演算法、後端和網頁。
-
-喜歡把學習到的知識寫成文章：
+📝 我會把學習到的知識寫成文章：
 
 - [Linkedin](https://www.linkedin.com/in/ypchen-1057a5137/)：大概一周寫一篇技術的筆記貼文，或是轉貼文章加上閱讀心得。
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
 
-我也參加了 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+👋 我也參加了 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+
+## Languages and Tools
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allieschen&layout=compact&theme=tokyonight)
 
 ## Side Project
 
@@ -63,13 +72,13 @@ Here are some ideas to get you started:
 - 邏輯上我將與畫面有關的元件放在 [views](https://github.com/AlliesChen/photo-vue/tree/main/src/views) 資料夾，會與後端溝通的元件放在 [components](https://github.com/AlliesChen/photo-vue/tree/main/src/components) 資料夾，目的是做關注點分離。
 - 另外我也有實驗狀態管理的套件 - pinia 用在 Vue 2 會是什麼樣子(在 [branch - pinia](https://github.com/AlliesChen/photo-vue/blob/pinia/src/store/status_cp.js))。
 
-## React 與 TypeScript 練習
+## React 搭配 TypeScript
 
 [react-shopping-cart](https://github.com/AlliesChen/react-shopping-cart)：練習搭配 Tailwind CSS，加入 RWD。
 
-[simple-resume-react](https://github.com/AlliesChen/simple-resume-react)：搭配 TypeScript，並使用 Chakra UI。
+[simple-resume-react](https://github.com/AlliesChen/simple-resume-react)：使用 Chakra UI 元件建立。
 
-[next-list](https://github.com/AlliesChen/next-list)：試試看 Next.js，搭配 TypeScript。
+[next-list](https://github.com/AlliesChen/next-list)：單純想玩玩看 Next.js。
 
 ## Vanilla JavaScript
 
