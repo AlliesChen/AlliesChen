@@ -21,6 +21,7 @@ Hi, 我是位前端工程師，非資訊本科生，做過企劃、PM，最後�
 
 - [Linkedin](https://www.linkedin.com/in/ypchen-1057a5137/)：大概一周寫一篇技術的筆記貼文，或是轉貼文章加上閱讀心得。
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
+- [Dev.to](https://dev.to/allieschen)：練習純英文寫作。
 
 👋 我也參加了 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
 
