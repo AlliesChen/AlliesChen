@@ -15,14 +15,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Hi, 我是位前端工程師，非資訊本科生，做過企劃、PM，最後發現自己喜歡寫程式。想方設法地大量攝取技術知識，也努力補齊基礎學科知識；像透過哈佛的 CS50 課程，在課程中用了 C、Python、SQL，和實作了演算法、後端和網頁。
+Hi, 我是位前端工程師，非資訊本科生，正持續透過 MooC 來補足基礎學科知識中：
+
+- UCB CS61A (進行中)-- repo: https://github.com/AlliesChen/cs61a_fa21
+- 哈佛 CS50 (已完成)
 
 📝 我會把學習到的知識寫成文章：
 
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
-- [Dev.to](https://dev.to/allieschen)：練習純英文寫作。
-
-👋 我也參加了 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+- [Dev.to](https://dev.to/allieschen)：用英文撰寫的文章會往這邊丟。
+- 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
 
 ## Languages and Tools
 
