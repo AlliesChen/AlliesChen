@@ -1,4 +1,4 @@
-# Yu-Pang
+# Yu-Pung
 
 <!--
 **AlliesChen/AlliesChen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,12 +15,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Hi, 我是位前端工程師，非資訊本科生，正持續透過 MooC 來補足基礎學科知識中：
+Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識中，目前做過：
 
-- UCB CS61A (進行中)-- repo: https://github.com/AlliesChen/cs61a_fa21
+- UCB CS61A FA21-- repo: https://github.com/AlliesChen/cs61a_fa21
 - 哈佛 CS50 (已完成)
 
-📝 我會把學習到的知識寫成文章：
+正在挑戰：
+
+- UCB CS61B FA23
+
+寫過一些小知識文章：
 
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
 - [Dev.to](https://dev.to/allieschen)：用英文撰寫的文章會往這邊丟。
@@ -42,37 +46,6 @@ Hi, 我是位前端工程師，非資訊本科生，正持續透過 MooC 來補�
 目前多是小型應用，著重練習特定的技術，像使用 socket.io、SCSS、TypeScript，或是練習 JS 框架像 React、Vue 等。部份專案有參考的教學，但我會再增加自己的想法去改動，比如 React 換 Vue， Bootstrap 換 Tailwind，讓自己不被框架侷限，專注在想法的實現。
 
 ### [MERN-stack](https://github.com/AlliesChen/MERN-stack) (no live demo)
-
-練習撰寫全端網頁應用，這個 web app 功能是讓使用者紀錄健身的項目與資訊。
-
-- [後端](https://github.com/AlliesChen/MERN-stack/tree/main/backend)
-  - 使用 Node.js 搭配 Express 框架簡化撰寫複雜度。
-  - 以 JWT 驗證使用者身份，並設定 id 以 cookie 傳遞，加入 `httpOnly` 和 `sameSite` 設定期望能對 XSS 與 CSRF 有比較好的防禦效果。我也寫了一篇文章記錄 - [JWT簡介 - 使用Node.js](https://allieschen.github.io/posts/jwt_with_node_js/)
-  - 資料庫透過 `mongoose` 套件使用 MongoDB。
-- [前端](https://github.com/AlliesChen/MERN-stack/tree/main/frontend)使用 Preact 製作，以 vite 建立。使用 preact-router、context API 與 useReducer，再佐以 JSDoc (和一些 .d.ts檔)加入型別註解。
-
-## [vue-chatroom](https://github.com/AlliesChen/vue-chatroom)
-
-[Live demo](https://vue-chatroom.fly.dev/)
-
-為練習使用 socket.io 做的簡易聊天室，自訂一個使用者名稱及房間名稱即可在視窗間互傳資訊，沒有使用資料庫，所以訊息不會留存下來。
-
-- 後端使用 Node.js + express
-- 前端以 Vite 建立，使用 Vue 3 composition API 搭配 TypeScript。
-  - 樣式部份使用 scss，透過 [@mixin、@for](https://github.com/AlliesChen/vue-chatroom/blob/main/client/src/styles/_utilities.scss) 做出像是 Tailwind CSS 那樣，基於 Atomic CSS 概念，高複用性的 class。也使用 CSS 原生的 @layer，分開基底的樣式與前述的組件樣式([這個檔案](https://github.com/AlliesChen/vue-chatroom/blob/main/client/src/styles/_base.scss))。
-  - 使用 scrollIntoView 這個 Web API 讓收到訊息時對話框會自動捲到底。
-
-## Photo book (no live demo)
-
-入職時主管出的題目，先使用 Vanilla JS 製作一次，再改用 Vue 2 做，並繼續增加功能。
-
-[photo-gallery](https://github.com/AlliesChen/photo-gallery)：結構上以 script.js 這支檔案為入口，當時想以元件化的概念去寫，所以將畫面有關的程式碼放在 [views](https://github.com/AlliesChen/photo-gallery/tree/main/static/views) 資料夾，操作的邏輯放在 [controls](https://github.com/AlliesChen/photo-gallery/tree/main/static/controls) 資料夾。
-
-\**後來才知道有 web component 這個技術 😅*
-
-[photo-vue](https://github.com/AlliesChen/photo-vue)：顧名思義，使用 vue-cli 建立 Vue 2 並重新撰寫 photo-gallery 的功能，搭配套件 vuex、vue-router，樣式使用 scss 並以 Atomic CSS 的概念去寫 class。
-- 邏輯上我將與畫面有關的元件放在 [views](https://github.com/AlliesChen/photo-vue/tree/main/src/views) 資料夾，會與後端溝通的元件放在 [components](https://github.com/AlliesChen/photo-vue/tree/main/src/components) 資料夾，目的是做關注點分離。
-- 另外我也有實驗狀態管理的套件 - pinia 用在 Vue 2 會是什麼樣子(在 [branch - pinia](https://github.com/AlliesChen/photo-vue/blob/pinia/src/store/status_cp.js))。
 
 ## React 搭配 TypeScript
 
