@@ -41,35 +41,31 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allieschen&layout=compact&theme=tokyonight)
 
-## Side Project
+## 轉職期間做的小專案
 
-目前多是小型應用，著重練習特定的技術，像使用 socket.io、SCSS、TypeScript，或是練習 JS 框架像 React、Vue 等。部份專案有參考的教學，但我會再增加自己的想法去改動，比如 React 換 Vue， Bootstrap 換 Tailwind，讓自己不被框架侷限，專注在想法的實現。
+### Simple Resume
 
-### [MERN-stack](https://github.com/AlliesChen/MERN-stack) (no live demo)
+[Live demo](https://allieschen.github.io/simple-resume-react/) | [Repo](https://github.com/AlliesChen/simple-resume-react)
 
-## React 搭配 TypeScript
+使用 React 搭配 TypeScript 以及 Chakra UI 建立，資料單純存在 `localStorage` 沒有搭配後端。
 
-[react-shopping-cart](https://github.com/AlliesChen/react-shopping-cart)：練習搭配 Tailwind CSS，加入 RWD。
+### TODO List
 
-[simple-resume-react](https://github.com/AlliesChen/simple-resume-react)：使用 Chakra UI 元件建立。
+[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
 
-[next-list](https://github.com/AlliesChen/next-list)：單純想玩玩看 Next.js。
+使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
 
-## Vanilla JavaScript
+### Calculator
 
-[todolist](https://github.com/AlliesChen/todolist)：一個待辦清單的 web app，使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
+[Live demo](https://allieschen.github.io/calculator/) | [Repo](https://github.com/AlliesChen/calculator)
 
-[weather-app](https://github.com/AlliesChen/weather-app)：練習 API 串接，使用 OpenWeather API，可以透過瀏覽器定位提供使用者所在城市的天氣資訊，或是輸入城市名稱查詢天氣。
+簡易計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
 
-[calculator](https://github.com/AlliesChen/calculator)：最一開始學習 JS 做的計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
+### Tic Tac Toe
 
-## 小遊戲系列 have fun!
+[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
 
-[quizzical-trivia](https://github.com/AlliesChen/quizzical-trivia)：使用 React 做的豆知識問答集，串接 Trivia API。
-
-[tenzies-game](https://github.com/AlliesChen/tenzies-game)：React 做的骰子遊戲，所有骰子的點數都一樣就勝利了。
-
-[tic-tac-toe](https://github.com/AlliesChen/tic-tac-toe)：純 JS 寫的井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
 
 ## 其他：
 
