@@ -17,12 +17,12 @@ Here are some ideas to get you started:
 
 Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識中，目前做過：
 
-- UCB CS61A FA21-- repo: https://github.com/AlliesChen/cs61a_fa21
-- 哈佛 CS50 (已完成)
+- [UCB cs61a fa21](https://github.com/AlliesChen/cs61a_fa21)
+- 哈佛 cs50
 
 正在挑戰：
 
-- UCB CS61B FA23
+- [UCB cs61b sp21](https://github.com/AlliesChen/cs61b-sp21)
 
 寫過一些小知識文章：
 
