@@ -28,9 +28,9 @@ Still working on：
 
 Here I have written some technical articles:
 
-- [My blog](https://allieschen.github.io/)(Chinese): I wrote articles about the issue I met and reviews about implementing items. Powered by Hugo and served on GitHub. I also have an article about how to build this blog.
+- [My blog](https://allieschen.github.io/) (Chinese): I wrote articles about the issue I met and reviews about implementing items. Powered by Hugo and served on GitHub. I also have an article about how to build this blog.
 - [Dev.to](https://dev.to/allieschen): Articles wrote in English. It's also about the issue I met and some reviews.
-- 2022 iThome Ironman contest (self-chanllenged)(Chinese)：[30 days of Python in perspective of a front-end developer](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+- 2022 iThome Ironman contest (self-chanllenged) (Chinese)：[30 days of Python in perspective of a front-end developer](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
 
 ## Languages and Tools
 
