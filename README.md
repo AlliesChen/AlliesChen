@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+- [Link to the Chinese version of this profile](https://github.com/AlliesChen/AlliesChen/tree/main)
+
 Focusing on web application development, and keep learning computer science with MooC. What I've gone through:
 
 - [UCB CS61A 2021 Fall](https://github.com/AlliesChen/cs61a_fa21)
@@ -24,7 +26,7 @@ Still working on：
 
 - [UCB CS61B 2021 Spring](https://github.com/AlliesChen/cs61b-sp21)
 
-寫過一些小知識文章：
+Here I have written some technical articles:
 
 - [My blog](https://allieschen.github.io/)(Chinese): I wrote articles about the issue I met and reviews about implementing items. Powered by Hugo and served on GitHub. I also have an article about how to build this blog.
 - [Dev.to](https://dev.to/allieschen): Articles wrote in English. It's also about the issue I met and some reviews.
@@ -69,6 +71,6 @@ A simple calculator that supports keyboard input has been designed to handle sit
 
 Try playing with computer in the hard mode, it implemented the concept of minMax algorithmn which the computer player will never lose.
 
-## 其他：
+## Others
 
-[leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
+[leetcode-practices](https://github.com/AlliesChen/leetcode-practices): Practices for solving Leetcode questions.
