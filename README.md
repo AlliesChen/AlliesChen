@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- [Link to the Chinese version of this profile](https://github.com/AlliesChen/AlliesChen/blob/main/README_zh-TW.md)
+> [Link to the Chinese version of this profile](https://github.com/AlliesChen/AlliesChen/blob/main/README_zh-TW.md)
 
 Focusing on web application development, and keep learning computer science with MooC. What I've gone through:
 
