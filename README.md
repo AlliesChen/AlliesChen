@@ -47,17 +47,17 @@ Here I have written some technical articles:
 
 Just for practicing.
 
+### Tic Tac Toe
+
+[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
+
+Implement with vanilla JavaScript. Try playing with computer in the hard mode, it implemented the concept of minMax algorithmn which the computer player will never lose.
+
 ### Simple Resume
 
 [Live demo](https://allieschen.github.io/simple-resume-react/) | [Repo](https://github.com/AlliesChen/simple-resume-react)
 
 With React, TypeScript and Chakra UI. Data just stored in `localStorage` without back-end paired.
-
-### TODO List
-
-[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
-
-Using webpack for bundling, utilize `MiniCssExtractPlugin` for integrating CSS file into single html file. And `HtmlWebpackPlugin` for conduct the file with randomized name to avoid the web browser to get staled cache file.
 
 ### Calculator
 
@@ -65,11 +65,11 @@ Using webpack for bundling, utilize `MiniCssExtractPlugin` for integrating CSS f
 
 A simple calculator that supports keyboard input has been designed to handle situations such as floating-point calculations, numeric overflow, and division by zero. In the case of floating-point numbers, they are first converted to integers, and after the calculation, they are converted back to avoid issues like $0.1 + 0.2 \neq 0.3$ due to IEEE-754.
 
-### Tic Tac Toe
+### TODO List
 
-[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
+[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
 
-Try playing with computer in the hard mode, it implemented the concept of minMax algorithmn which the computer player will never lose.
+Using webpack for bundling, utilize `MiniCssExtractPlugin` for integrating CSS file into single html file. And `HtmlWebpackPlugin` for conduct the file with randomized name to avoid the web browser to get staled cache file.
 
 ## Others
 
