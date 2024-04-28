@@ -17,12 +17,12 @@ Here are some ideas to get you started:
 
 Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識中，目前做過：
 
-- [UCB cs61a fa21](https://github.com/AlliesChen/cs61a_fa21)
-- 哈佛 cs50
+- [UCB CS61A 2021 Fall](https://github.com/AlliesChen/cs61a_fa21)
+- 哈佛 CS50
 
 正在挑戰：
 
-- [UCB cs61b sp21](https://github.com/AlliesChen/cs61b-sp21)
+- [UCB CS61B 2021 Spring](https://github.com/AlliesChen/cs61b-sp21)
 
 寫過一些小知識文章：
 
@@ -68,7 +68,5 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
 
 ## 其他：
-
-[flask-api](https://github.com/AlliesChen/flask-api)：我在 2022 iThome鐵人賽中的一篇文章教學所做，旨在透過 `pymongo` 套件應用 MongoDB 的建立 API server。
 
 [leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
