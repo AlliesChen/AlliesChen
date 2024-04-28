@@ -43,17 +43,17 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 
 ## 轉職期間做的小專案
 
+### Tic Tac Toe
+
+[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
+
+井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+
 ### Simple Resume
 
 [Live demo](https://allieschen.github.io/simple-resume-react/) | [Repo](https://github.com/AlliesChen/simple-resume-react)
 
 使用 React 搭配 TypeScript 以及 Chakra UI 建立，資料單純存在 `localStorage` 沒有搭配後端。
-
-### TODO List
-
-[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
-
-使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
 
 ### Calculator
 
@@ -61,11 +61,11 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 
 簡易計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
 
-### Tic Tac Toe
+### TODO List
 
-[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
+[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
 
-井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
 
 ## 其他：
 
