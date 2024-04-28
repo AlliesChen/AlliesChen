@@ -15,20 +15,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識中，目前做過：
+Focusing on web application development, and keep learning computer science with MooC. What I've gone through:
 
-- [UCB cs61a fa21](https://github.com/AlliesChen/cs61a_fa21)
-- 哈佛 cs50
+- [UCB CS61A 2021 Fall](https://github.com/AlliesChen/cs61a_fa21)
+- Harvard CS50
 
-正在挑戰：
+Still working on：
 
-- [UCB cs61b sp21](https://github.com/AlliesChen/cs61b-sp21)
+- [UCB CS61B 2021 Spring](https://github.com/AlliesChen/cs61b-sp21)
 
 寫過一些小知識文章：
 
-- [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
-- [Dev.to](https://dev.to/allieschen)：用英文撰寫的文章會往這邊丟。
-- 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+- [My blog](https://allieschen.github.io/)(Chinese): I wrote articles about the issue I met and reviews about implementing items. Powered by Hugo and served on GitHub. I also have an article about how to build this blog.
+- [Dev.to](https://dev.to/allieschen): Articles wrote in English. It's also about the issue I met and some reviews.
+- 2022 iThome Ironman contest (self-chanllenged)(Chinese)：[30 days of Python in perspective of a front-end developer](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
 
 ## Languages and Tools
 
@@ -41,34 +41,34 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allieschen&layout=compact&theme=tokyonight)
 
-## 轉職期間做的小專案
+## Side Projects
+
+Just for practicing.
 
 ### Simple Resume
 
 [Live demo](https://allieschen.github.io/simple-resume-react/) | [Repo](https://github.com/AlliesChen/simple-resume-react)
 
-使用 React 搭配 TypeScript 以及 Chakra UI 建立，資料單純存在 `localStorage` 沒有搭配後端。
+With React, TypeScript and Chakra UI. Data just stored in `localStorage` without back-end paired.
 
 ### TODO List
 
 [Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
 
-使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
+Using webpack for bundling, utilize `MiniCssExtractPlugin` for integrating CSS file into single html file. And `HtmlWebpackPlugin` for conduct the file with randomized name to avoid the web browser to get staled cache file.
 
 ### Calculator
 
 [Live demo](https://allieschen.github.io/calculator/) | [Repo](https://github.com/AlliesChen/calculator)
 
-簡易計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
+A simple calculator that supports keyboard input has been designed to handle situations such as floating-point calculations, numeric overflow, and division by zero. In the case of floating-point numbers, they are first converted to integers, and after the calculation, they are converted back to avoid issues like $0.1 + 0.2 \neq 0.3$ due to IEEE-754.
 
 ### Tic Tac Toe
 
 [Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
 
-井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
+Try playing with computer in the hard mode, it implemented the concept of minMax algorithmn which the computer player will never lose.
 
 ## 其他：
-
-[flask-api](https://github.com/AlliesChen/flask-api)：我在 2022 iThome鐵人賽中的一篇文章教學所做，旨在透過 `pymongo` 套件應用 MongoDB 的建立 API server。
 
 [leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
