@@ -29,6 +29,7 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 - [個人部落格](https://allieschen.github.io/)：用 Hugo 做的，放在GitHub上，怎麼做的也寫了文章放裡面；文章大多放我實作某個項目時遇到的問題和心得。
 - [Dev.to](https://dev.to/allieschen)：用英文撰寫的文章會往這邊丟。
 - 2022 iThome 鐵人賽 (自我挑戰組)：[從前端角度看30天學Python](https://ithelp.ithome.com.tw/users/20151651/ironman/5346)
+- [leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
 
 ## Languages and Tools
 
@@ -40,33 +41,3 @@ Hi, 我是位網頁應用開發，持續透過 MooC 來補足基礎學科知識�
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allieschen&layout=compact&theme=tokyonight)
-
-## 轉職期間做的小專案
-
-### Tic Tac Toe
-
-[Live demo](https://allieschen.github.io/tic-tac-toe/) | [Repo](https://github.com/AlliesChen/tic-tac-toe)
-
-井字棋(圈圈叉叉)遊戲，困難模式下用 minMax 演算法的概念，讓電腦不會輸。
-
-### Simple Resume
-
-[Live demo](https://allieschen.github.io/simple-resume-react/) | [Repo](https://github.com/AlliesChen/simple-resume-react)
-
-使用 React 搭配 TypeScript 以及 Chakra UI 建立，資料單純存在 `localStorage` 沒有搭配後端。
-
-### Calculator
-
-[Live demo](https://allieschen.github.io/calculator/) | [Repo](https://github.com/AlliesChen/calculator)
-
-簡易計算機，支援鍵盤輸入，在浮點數計算、數字溢位，和除以零等狀況做了處理；浮點數會先轉成整數，計算完再除回去，避免因 IEEE-754 而有的 $0.1 + 0.2 \neq 0.3$。
-
-### TODO List
-
-[Live demo](https://allieschen.github.io/todolist/) | [Repo](https://github.com/AlliesChen/todolist)：
-
-使用 webpack 打包，透過 `MiniCssExtractPlugin` 獨立出 CSS 檔案到打包後的 html 檔裡，以及 `HtmlWebpackPlugin` 讓每次打包後重新生成亂數名稱的檔案到 dist 資料夾，避免瀏覽器快取到舊的。
-
-## 其他：
-
-[leetcode-practices](https://github.com/AlliesChen/leetcode-practices)：練習解 Leetcode。
